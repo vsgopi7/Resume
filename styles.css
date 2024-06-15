@@ -97,3 +97,37 @@ main {
 .card a:hover {
     text-decoration: underline;
 }
+
+/* Update header styles for responsiveness */
+header {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center align header content */
+    padding: 15px; /* Reduce padding for smaller screens */
+}
+
+.header-left, .header-right {
+    text-align: center; /* Center align text in both left and right sections */
+}
+
+.header-right {
+    padding-top: 0; /* Remove top padding for the right section */
+}
+
+.contact-info {
+    padding: 0; /* Remove horizontal padding for contact info */
+}
+
+.contact-info p {
+    margin-bottom: 8px; /* Reduce margin bottom for contact info */
+}
+
+/* Ensure name and role are responsive */
+.header-left h1, .header-left p {
+    margin-bottom: 5px; /* Adjust spacing between name and role */
+}
+
+/* Adjust padding and line height for main content */
+main {
+    padding: 15px;
+    line-height: 1.6; /* Adjust line height for readability */
+}
